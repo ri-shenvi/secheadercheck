@@ -11,30 +11,30 @@ It just check headers and print a report about which are enabled and which not
 ### Pypi
 ```bash
 pip3 install shcheck
-shcheck.py https://insecurity.blog
+secheadercheck.py https://insecurity.blog
 ```
 
 ### Docker
 First build your docker container using something like this: 
 
-`docker build -t shcheck .`
+`docker build -t secheadercheck .`
 
 Then simply run your docker container using something like this where you specify which website you want to check headers on: 
 
-`docker run -it --rm shcheck https://insecurity.blog`
+`docker run -it --rm secheadercheck https://insecurity.blog`
 
 ### From source
 ```bash
-git clone https://github.com/ri-shenvi/secheadercheck && cd shcheck
-./shcheck.py https://insecurity.blog
+git clone https://github.com/ri-shenvi/secheadercheck && cd secheadercheck
+./secheadercheck.py https://insecurity.blog
 ```
 
 ### Standalone script
-If you want to run shcheck as a standalone script, just grab the `shcheck.py` script from the `shcheck` module/folder and copy it around.
+If you want to run shcheck as a standalone script, just grab the `secheadercheck.py` script from the `secheadercheck` module/folder and copy it around.
 
 ## Usage
 ```
-Usage: ./shcheck.py [options] <target>
+Usage: ./secheadercheck.py [options] <target>
 
 Options:
   -h, --help            show this help message and exit
