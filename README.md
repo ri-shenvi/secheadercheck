@@ -1,11 +1,4 @@
-# shcheck - Security Header Check
-
-<p align="center">
-    <a href="https://pypi.org/project/shcheck/"><img alt="PyPI" src="https://img.shields.io/pypi/v/shcheck"></a>
-    <a href="https://pypi.org/project/shcheck/"><img alt="Pypi" src="https://img.shields.io/pypi/dm/shcheck"></a>
-    <a href="#"><img alt="Updated" src="https://img.shields.io/github/last-commit/santoru/shcheck?label=updated"></a>
-    <img src="screenshot.png" alt="Output on Facebook" />
-</p>
+# Security Header Check
 
 ## Check security headers on a target website
 
