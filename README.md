@@ -25,7 +25,7 @@ Then simply run your docker container using something like this where you specif
 
 ### From source
 ```bash
-git clone https://github.com/santoru/shcheck && cd shcheck
+git clone https://github.com/ri-shenvi/secheadercheck && cd shcheck
 ./shcheck.py https://insecurity.blog
 ```
 
